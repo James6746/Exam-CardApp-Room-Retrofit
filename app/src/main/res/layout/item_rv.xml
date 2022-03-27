@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/card_mock"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="260dp"/>
+    <TextView
+        android:id="@+id/card_number"
+        android:layout_marginStart="36sp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#B3CEE3"
+        android:layout_marginTop="136dp"
+        android:text="4276 5842 1111 8014"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/holder_name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#B3CEE3"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="64dp"
+        android:text="Diyorbek shukriddinov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_balance"
+        android:layout_gravity="bottom"
+        android:text="7 600 000"
+        android:layout_marginBottom="24dp"
+        android:textColor="#B3CEE3"
+        android:layout_marginStart="36dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Expired date: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/expire_date"
+            android:text="04/11"
+            android:textSize="16sp"
+            android:layout_marginStart="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>
